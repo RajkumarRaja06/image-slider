@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,900;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: 'Poppins', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  /* customize color */
+
+  --clr-background: #191627;
+  --clr-button-lite-color: #6666cc;
+  --clr-button-color: #4e3bb0;
+  --clr-button-alt-color: #6e57e0;
+  --clr-text-color: #fff;
+  --clr-text-light-color: #bcbac4;
+  --clr-black: #000;
+  --clr-white: #fff;
+  --clr-footer-background: #100e1b;
+}
+
+.mainBox {
+  max-width: 63rem;
+  height: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.slider-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+article {
+  width: 100%;
+  height: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+img {
+  width: 90%;
+  height: 12rem;
+}
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-project-data {
+  border: 2px dashed brown;
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.portfolio-project-name {
+  font-size: 1.3rem;
+  margin: 0.25rem auto;
+  float: left;
+}
+
+.portfolio-project-description {
+  margin: 0.75rem auto;
+  height: 8rem;
+  border: 2px solid black;
+  float: left;
+}
+
+.portfolio-project-btn {
+  float: left;
+  margin: 0.75rem auto;
+}
+
+.demo-icon,
+.gitHub-icon {
+  font-size: 1.5rem;
+  border: none;
+}
+
+.portfolio-project-host-btn {
+  margin-left: 1rem;
+}

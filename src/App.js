@@ -1,5 +1,11 @@
+import ImageSlider from './component/ImageSlider';
+
 const App = () => {
-  return <h1>Hello</h1>;
+  return (
+    <main className='main'>
+      <ImageSlider />
+    </main>
+  );
 };
 
 export default App;
